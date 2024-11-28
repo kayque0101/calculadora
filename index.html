@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora: 2 e 6</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Calculadora: 2 e 6</h1>
+        <div id="display"> Escolha os números e operações</div>
+        <div class="button">
+            <button class="num-btn" onClick="adicionarNumero(2)">2</button>
+            <button class="num-btn" onClick="adicionarNumero(6)">6</button>
+
+            <button class="op-btn"
+            onClick="adicionarOperacao('+')">+</button>
+            <button class="op-btn"
+            onClick="adicionarOperacao('-')">-</button>
+            <button class="op-btn"
+            onClick="adicionarOperacao('*')">x</button>
+            <button class="op-btn"
+            onClick="adicionarOperacao('/')">%</button>
+
+            <button class="equal-btn"
+                onClick=" calcularResultado()">=</button>
+
+                <button class="clear-btn" onClick="LimparEntrada()">C</button>
+        </div>
+    </div>
+         <script src="./script.js"></script>
+</body>
+</html>
